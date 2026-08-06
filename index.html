@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Frutiger Aero Weather</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="background">
+
+<div class="bubble b1"></div>
+<div class="bubble b2"></div>
+<div class="bubble b3"></div>
+<div class="bubble b4"></div>
+<div class="bubble b5"></div>
+
+<div class="weather-window">
+
+<div class="title-bar">
+
+<div class="title-left">
+<i class="fa-solid fa-cloud"></i>
+<span>Weather</span>
+</div>
+
+<div class="window-buttons">
+
+<button>-</button>
+<button>□</button>
+<button>✕</button>
+
+</div>
+
+</div>
+
+<div class="weather-main">
+
+<div class="weather-icon">
+
+<img id="weatherIcon"
+src="https://cdn-icons-png.flaticon.com/512/869/869869.png">
+
+</div>
+
+<div class="weather-info">
+
+<h1 id="temp">28°C</h1>
+
+<h2 id="condition">
+Mostly Sunny
+</h2>
+
+<p id="city">
+Mumbai, India
+</p>
+
+</div>
+
+</div>
+
+<div class="stats">
+
+<div class="card">
+
+<i class="fa-solid fa-droplet"></i>
+
+<h3>Humidity</h3>
+
+<p id="humidity">
+76%
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-wind"></i>
+
+<h3>Wind</h3>
+
+<p id="wind">
+9 km/h
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-cloud-rain"></i>
+
+<h3>Rain</h3>
+
+<p id="rain">
+15%
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-temperature-three-quarters"></i>
+
+<h3>Feels Like</h3>
+
+<p id="feels">
+31°C
+</p>
+
+</div>
+
+</div>
+
+<h2 class="forecast-title">
+
+5 Day Forecast
+
+</h2>
+
+<div class="forecast">
+
+<div class="day">
+
+<h4>Wed</h4>
+
+<img src="https://cdn-icons-png.flaticon.com/512/869/869869.png">
+
+<p>30°C</p>
+
+</div>
+
+<div class="day">
+
+<h4>Thu</h4>
+
+<img src="https://cdn-icons-png.flaticon.com/512/414/414825.png">
+
+<p>29°C</p>
+
+</div>
+
+<div class="day">
+
+<h4>Fri</h4>
+
+<img src="https://cdn-icons-png.flaticon.com/512/1163/1163657.png">
+
+<p>27°C</p>
+
+</div>
+
+<div class="day">
+
+<h4>Sat</h4>
+
+<img src="https://cdn-icons-png.flaticon.com/512/1163/1163657.png">
+
+<p>26°C</p>
+
+</div>
+
+<div class="day">
+
+<h4>Sun</h4>
+
+<img src="https://cdn-icons-png.flaticon.com/512/414/414825.png">
+
+<p>28°C</p>
+
+</div>
+
+</div>
+
+<div class="bottom-buttons">
+
+<button id="refresh">
+
+Refresh
+
+</button>
+
+<button>
+
+Details →
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
